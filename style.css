@@ -153,6 +153,7 @@
         object-fit: cover;
         inline-size: 100%;
         block-size: 100%;
+        height: 850px;
       }
     }
 
@@ -385,11 +386,8 @@
 
   .Logo {
     font-family: aAnotherTag;
-
-    font-weight: var(--font-weight-4);
-
-    
-    font-size: calc(var(--font-size-8) + var(--font-size-1));
+    font-weight: var(--font-weight-1);
+    font-size: calc(var(--font-size-5) + var(--font-size-2));
   }
   .Logo2 {
     font-family: aAnotherTag;
@@ -626,6 +624,11 @@
   font-family: 'coolvetica condensed rg';
   src: url(coolvetica\ condensed\ rg.otf);
 }
+@font-face {
+  font-family: 'Times New Romance';
+  src: url(Times\ New\ Romance.ttf);
+}
+
 .bio {
   font-family: urae_nium;
   font-weight: var(--font-weight-4);
@@ -645,6 +648,7 @@
 
 .venuestext {
   
+  font-family: coolvetica condensed rg;
   color: black;
   /* font-family: urae_nium; */
 
@@ -657,4 +661,47 @@
       font-size: var(--font-size-fluid-3);
     }
   }
+}
+.venuestext2 {
+  
+  font-family: coolvetica condensed rg;
+  color: rgb(255, 255, 255);
+  /* font-family: urae_nium; */
+
+  & p {
+    text-align: center;
+    font-size: var(--font-size-7);
+
+    max-inline-size: var(--size-content-20);
+    @media (width < 768px) {
+      font-size: var(--font-size-fluid-3);
+    }
+  }
+}
+
+.rtecnico {
+  color: rgb(255, 255, 255);
+  font-family: urae_nium;
+  font-weight: var(--font-weight-4);
+  font-size: calc(var(--font-size-8) + var(--font-size-1));
+  text-align:center;
+
+  display: grid;
+  padding: var(--size-10);
+
+}
+.plans{
+  font-family: urae_nium;
+  color: black;
+  font-weight: var(--font-weight-4);
+  font-size: calc(var(--font-size-8) + var(--font-size-1));
+  text-align:center;
+  
+}
+.contacto{
+  font-family: urae_nium;
+  color: rgb(255, 255, 255);
+  font-weight: var(--font-weight-4);
+  font-size: calc(var(--font-size-8) + var(--font-size-1));
+  text-align:center;
 }
