@@ -93,13 +93,13 @@ const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 if (mediaQuery.matches) rate = REDUCED_PLAYBACK_RATE;
 
 const words = [
-  'passion',
-  'success',
-  'goals',
-  'rhythm',
-  'fun',
-  'energy',
-  'opportunity',
+  'DJ',
+  'PRODUCER',
+  'MUSIC',
+  'OTW',
+  'SET',
+  // 'energy',
+  // 'opportunity',
 ];
 
 textReplace(words, 'target-word', rate);
