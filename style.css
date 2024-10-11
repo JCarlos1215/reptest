@@ -289,13 +289,13 @@
     padding: var(--size-8);
     border-radius: var(--radius-3);
 
-    & h2 {
+    /* & h2 {
       font-size: var(--font-size-5);
     }
 
     & ul {
       padding: var(--size-3);
-    }
+    } */
 
     & i {
       font-size: var(--font-size-5);
@@ -708,7 +708,7 @@
 .contenedor-responsivo{
   position: relative;
   overflow: hidden;
-  padding-top:50%;
+  padding-top:120%;
 }
 .iframe-responsivo{
   position:absolute;
@@ -720,9 +720,9 @@
 
 }
 .contenedor-responsivoplayer{
-  position: relative;
+  position:static;
   overflow: hidden;
-  padding-top:50%;
+  padding-top:120%;
 }
 .iframe-responsivoplayer{
   position:absolute;
