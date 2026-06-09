@@ -703,6 +703,70 @@
   font-weight: var(--font-weight-4);
   font-size: calc(var(--font-size-8) + var(--font-size-1));
   text-align:center;
+  display: grid;
+  gap: var(--size-4);
+  padding: var(--size-10) var(--size-3);
+  background-color: var(--surface-4);
+  place-items: center;
+}
+
+.contacto-title {
+  margin: 0;
+  font-family: urae_nium;
+  color: rgb(255, 255, 255);
+  font-weight: var(--font-weight-4);
+  font-size: calc(var(--font-size-8) + var(--font-size-1));
+  text-align: center;
+}
+
+.contact-info {
+  display: grid;
+  gap: var(--size-4);
+  justify-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.contact-info a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.contact-info a:hover {
+  border-color: currentColor;
+}
+
+.social-links {
+  display: flex;
+  gap: var(--size-4);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid rgba(0, 191, 255, 0.6);
+  border-radius: 999px;
+  color: rgb(255, 255, 255);
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.social-links a:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  transform: translateY(-2px);
+}
+
+.social-links i {
+  font-size: 1.4rem;
 }
 
 .contenedor-responsivo{

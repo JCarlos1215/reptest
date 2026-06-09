@@ -17,10 +17,10 @@ body {
 
 .gallery {
   position: relative;
-  width: 760px;
+  width: 380px;
   height: 305px;
 
-  &:hover :not(div[data-pos='0'],img) { cursor: pointer; }
+  &:hover :not(div[data-pos='2'],img) { cursor: pointer; }
 
   & .item {
     position: absolute;
@@ -42,12 +42,11 @@ body {
     z-index: 10;
   }
 }
-
 div[data-pos='0'] { transform: translate(0,0); }
 div[data-pos='1'] { transform: translate(405px,0); }
-div[data-pos='2'] { transform: translate(585px,0); }
+div[data-pos='2'] { transform: translate(-180px,0); }
 div[data-pos='3'] { transform: translate(405px,155px); }
-div[data-pos='4'] { transform: translate(585px,155px); }
+div[data-pos='4'] { transform: translate(-180px,155px); }
 
 @media (width < 800px) {
   .gallery {
@@ -65,7 +64,6 @@ div[data-pos='4'] { transform: translate(585px,155px); }
       z-index: 10;
     }
   }
-
   div[data-pos='0'] { transform: translate(0,0); }
   div[data-pos='1'] { transform: translate(0,355px); }
   div[data-pos='2'] { transform: translate(0,510px); }

@@ -93,11 +93,11 @@ const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
 if (mediaQuery.matches) rate = REDUCED_PLAYBACK_RATE;
 
 const words = [
-  'DJ',
-  'PRODUCER',
-  'MUSIC',
+  'OFF THE WALL',
   'OTW',
-  'SET',
+  'DJ/PRODUCER',
+  'OFF THE WALL',
+  'OTW',
   // 'energy',
   // 'opportunity',
 ];
